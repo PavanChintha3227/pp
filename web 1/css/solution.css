@@ -1,0 +1,28 @@
+.gradient-background {
+  background: linear-gradient(300deg,rgb(101, 96, 204) , rgb(24, 162, 102));
+  background-size: 180% 180%;
+  animation: pk 18s ease infinite;
+}
+
+@keyframes pk {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
